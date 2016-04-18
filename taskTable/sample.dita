@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-stylesheet type="text/css" href="taskTable.css"?>
+<task id="task_fg2_lcy_qv">
+    <title>Sample</title>
+    <taskbody>
+        <steps outputclass="table">
+            <step>
+                <cmd>Gardenia is a genus of about 250 species of flowering plants in the coffee
+                    family, Rubiaceae, native to the tropical and subtropical regions of Africa,
+                    southern Asia, Australasia and Oceania. Several species occur on Hawaii, where
+                    gardenias are known as na'u or nanu.</cmd>
+                <info>
+                    <fig id="fig_ttx_mcy_qv">
+                        <image href="Gerbera.jpg" id="image_rtv_pcy_qv"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Snowdrop is the common name for members of the genus Galanthus, a small genus
+                    of about 20 species in the family Amaryllidaceae; snowdrops are among the first
+                    bulbs to bloom in spring, although certain species flower in late autumn and
+                    winter.</cmd>
+                <info>
+                    <fig id="fig_z2g_vcy_qv">
+                        <image href="Snowdrop.jpg" id="image_sf4_vcy_qv"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

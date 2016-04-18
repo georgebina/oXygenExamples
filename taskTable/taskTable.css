@@ -1,0 +1,35 @@
+steps[outputclass=table] {
+    display:table!important;
+}
+
+steps[outputclass=table]  step {
+    display:table-row!important;
+    vertical-align:top;
+    padding:1em !important;
+}
+
+steps[outputclass=table]  step:before {
+    display:none;
+}
+
+
+steps[outputclass=table]  step > cmd {
+    display:table-cell!important;
+    vertical-align:top;
+    padding-top:0.5em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    width:45%;
+    border:1px solid #EEEEEE;
+}
+
+steps[outputclass=table]  step > info {
+    width:45%;
+    display:table-cell!important;
+    vertical-align:top;
+    border:1px solid #EEEEEE;
+}
+
+*[class~='task/info']:before {
+    content : "" ;
+}
