@@ -1,0 +1,21 @@
+.table > * {
+    display:table-row;
+    padding:1em !important;
+}
+
+.table > * > .cmd {
+    display:table-cell;
+    vertical-align:top;
+    padding-top:0.5em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    width:45%;
+    border:1px solid #EEEEEE;
+}
+
+.table > * > .info {
+    display:table-cell;
+    vertical-align:top;
+    width:45%;
+}
+
