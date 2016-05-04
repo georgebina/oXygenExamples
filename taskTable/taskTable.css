@@ -1,8 +1,10 @@
 steps[outputclass=table] {
     display:table!important;
+    counter-reset:steps;
 }
 
 steps[outputclass=table]  step {
+    counter-increment:steps;
     display:table-row!important;
     vertical-align:top;
     padding:1em !important;
@@ -12,6 +14,11 @@ steps[outputclass=table]  step:before {
     display:none;
 }
 
+steps[outputclass=table]  step > cmd:before {
+    display:block;
+    content:"Step " counter(steps) ".";
+    font-weight:bold;
+}
 
 steps[outputclass=table]  step > cmd {
     display:table-cell!important;
